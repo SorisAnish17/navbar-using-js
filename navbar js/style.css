@@ -1,0 +1,42 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#list {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+#list a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+ul span a {
+  margin: 25px 25px !important;
+  font-size: 20px !important;
+}
+#bar {
+  display: none;
+}
+.mobnav {
+  display: none;
+  text-align: center;
+  background-color: #555 !important;
+  transition: 1s;
+}
+
+@media screen and (max-width: 500px) {
+  #bar {
+    display: block;
+    padding: 0px 20px;
+  }
+  #list {
+    display: none;
+  }
+  .display {
+    display: block;
+  }
+}
